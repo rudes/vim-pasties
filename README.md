@@ -28,7 +28,7 @@ The registers are `"*` and `"+`
 Use XForwarding to allow vim to access the environment properly.
 In my .bashrc I added an alias.
 ```bash
-alias ssh='ssh -x'
+alias ssh='ssh -X'
 ```
 ### Putty
 
