@@ -21,7 +21,7 @@ I use both xterm on linux and putty on windows to access my development environm
 I often have text on my laptops clipboard I'd like to paste in vim but using my mouse is a pain.
 However vim has a couple registers dedicated to system clipboards.
 You just need to setup your environment a bit to work with the clipboards.
-The registers are `"* and "+`
+The registers are `"*` and `"+`
 
 ### Linux (xterm)
 
@@ -32,7 +32,7 @@ alias ssh='ssh -x'
 ```
 ### Putty
 
-You'll need an X11 environment, I use (X-Ming)[https://sourceforge.net/projects/xming/]
+You'll need an X11 environment, I use [X-Ming](https://sourceforge.net/projects/xming/)
 then in putty you'll need to set:
 
 Conection > SSH > X11 > Check 'Enable X11 forwarding'
