@@ -12,9 +12,9 @@ function! SmarterRegisters()
     redir => registers
     silent registers
     redir END
-    exec 'normal! silent pedit [Registers]'
+    silent pedit [Registers]'
     wincmd P | wincmd J
-    exec 'normal! :resize 10'
+    resize 10'
     silent let register_list = split(registers, "\n")
     exec append(0, register_list)
     com! -buffer -nargs=? SelectRegister
@@ -26,10 +26,10 @@ endfunction
 function! s:whichRegister(registerLine)
     let reg = a:registerLine[1]
     silent bd!
-    return "\<C-R>".reg
+    return "a\<C-R>".reg
 endfunction
 
-"inoremap <expr> <C-R> SmarterRegisters()
+inoremap <expr> <C-R> SmarterRegisters()
 
 function! ShowPasties()
     registers
