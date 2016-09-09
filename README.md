@@ -3,7 +3,7 @@
 pasties is a plugin that makes pasting from a register in insert/command mode easier.
 Inspired by Damian Conway
 
-![ShowPasties](https://github.com/rudes/vim-pasties/blob/master/doc/showpasties.gif)
+![ShowPasties](https://bytebucket.org/rudes/vim-pasties/raw/4cac0f7a8d1f4eac5e7a7dc19daad7cbfabf5a71/doc/showpasties.gif)
 
 ## Installation
 
