@@ -1,0 +1,30 @@
+*pasties.txt*  Better Insert/Command Mode Pasting
+
+Author:  Jacob Riddle <http://rudes.me/>
+
+INTRODUCTION                                                          *pasties*
+
+Works just like C-R used to, except now you get 
+to see your registers when you paste.
+
+SETUP                                                           *pasties-setup*
+
+In your .vimrc or init.vim file add:
+inoremap <expr> <C-R> ShowPasties() # For Insert Mode
+cnoremap <expr> <C-R> ShowPasties() # For Command Mode
+
+FUNCTIONS                                                   *pasties-functions*
+
+                                                                 *pasties-:Git*
+:ShowPasties()          Call using <C-R> and it will pull 
+                        up a list of available
+                        registers that you can choose 
+                        based on their key ("a type a).
+
+ABOUT                                                           *pasties-about*
+
+Grab the latest version or report a bug on GitHub:
+
+http://github.com/rudes/vim-pasties
+
+ vim:tw=78:et:ft=help:norl:
