@@ -1,4 +1,4 @@
-# Pasties
+# Pasties [![GitHub release](https://img.shields.io/github/release/rudes/vim-pasties.svg?maxAge=2592000)](https://github.com/rudes/vim-pasties/releases)
 
 pasties is a plugin that makes pasting from a register in insert/command mode easier.
 Inspired by Damian Conway
